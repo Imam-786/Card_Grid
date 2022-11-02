@@ -1,0 +1,64 @@
+/* body {
+  font-family: Raleway, sans-serif;
+  margin: 0 0;
+} */
+
+header {
+  position: fixed;
+  /* margin-top: -120px; */
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  border: 1px solid rgb(206, 215, 223);
+  background-color: #fff;
+  align-items: center;
+  height: 80px;
+}
+
+/* Logo CSS  */
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.logoedyoda {
+  color: #0084ff;
+  width: 130px;
+  margin-top: 0px;
+  margin-left: 75px;
+  /* font-family: Raleway, sans-serif; */
+  font-size: 32px;
+  font-weight: 900;
+}
+
+nav #logo p {
+  margin: 0;
+  margin-left: 75px;
+  font-family: Raleway, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+/* Explorer categories CSS  */
+
+.explorer {
+  display: flex;
+  align-items: center;
+  margin: 0px 60px;
+}
+
+.explorer_tag {
+  display: flex;
+  color: #000;
+  font-family: Raleway, sans-serif;
+}
+
+.dropdown_icon_image {
+  padding-top: 0;
+  padding-left: 8px;
+}
+

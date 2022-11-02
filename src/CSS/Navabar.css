@@ -1,0 +1,89 @@
+body {
+    /* margin: 0 0; */
+    box-sizing: border-box;  
+}
+
+header {
+    position: relative;
+    font-family: Raleway, sans-serif;
+    /* margin-top: -120px; */
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    border: 1px solid rgb(206, 215, 223);
+    background-color: #fff;
+    align-items: center;
+    height: 80px;
+}
+
+/* Logo CSS  */
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.logoedyoda {
+    color: #0084ff;
+    width: 130px;
+    margin-top: 0px;
+    margin-left: 75px;
+    /* font-family: Raleway, sans-serif; */
+    font-size: 32px;
+    font-weight: 900;
+}
+
+nav #logo p {
+    margin: 0;
+    margin-left: 75px;
+    font-family: Raleway, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+/* Explorer categories CSS  */
+
+.explorer {
+    display: flex;
+    align-items: center;
+    margin: 0px 60px;
+}
+
+.explorer_tag {
+    display: flex;
+    color: #000;
+    font-family: Raleway, sans-serif;
+}
+
+.dropdown_icon_image {
+    padding-top: 0;
+    padding-left: 8px;
+}
+
+/* Text CSS  */
+
+.text{
+    text-align: left;
+    width: 25%;
+    /* border: 1px solid gray; */
+    opacity: 0.5;
+}
+
+/* main Website button CSS */
+.main-website-btn{
+    width: 170px;
+    padding: 13px 10px;
+    height: auto;
+    margin-left: 300px;
+    background-color: #0084ff;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 500;
+}

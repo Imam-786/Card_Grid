@@ -1,0 +1,65 @@
+.trending_posts h1 {
+    color: #000;
+    position: relative;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-left: 185px;
+}
+
+.trending_posts img {
+    margin-left: 190px;
+    width: 22px;
+    height: 22px;
+    font-weight: 600px;
+}
+
+.img_head {
+    display: flex;
+}
+
+.filter_by_category {
+    margin-bottom: 30px;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+
+.categories {
+    display: flex;
+    width: 75%;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 0 185px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    /* padding-top: 16px; */
+    font-size: 16px;
+}
+
+.catog {
+    padding: 6px 14px;
+    width: auto;
+    color: #0084ff;
+    border: 1px solid #0084ff;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#cat1 a {
+    color: #fff;
+}
+
+.bydefault button {
+    background-color: #0084ff;
+}
+
+.categories a:active,
+.categories button:active {
+    color: #fff;
+    background-color: #0084ff;
+}
+
+.catog:hover  {
+    background-color: #0084ff;
+}
